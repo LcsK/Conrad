@@ -7,6 +7,11 @@ const DEFAULT_LEVEL = 'debug';
 const defaultLogger = getLogger();
 defaultLogger.level = DEFAULT_LEVEL;
 
+/**
+ * Get a logger instance, if level param is default, it will return a global logger instance
+ * @param {String} level logger level (default: 'debug')
+ * @returns logger instance
+ */
 module.exports = (level = DEFAULT_LEVEL) => {
   if (level === DEFAULT_LEVEL) {
     return defaultLogger;
