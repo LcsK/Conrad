@@ -4,6 +4,9 @@
   "description": "Software Engineering Project",
   "main": "app.js",
   "scripts": {
+    "lint": "eslint app.js server",
+    "lint:fix": "eslint server app.js --fix",
+    "lint:watch": "esw --watch app.js server",
     "start": "node app.js"
   },
   "author": "Lucas Lopes",
@@ -12,5 +15,13 @@
   "engines": {
     "node": "8.11.4",
     "npm": "6.4.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-vue": "^4.7.1",
+    "eslint-watch": "^4.0.2"
   }
 }
