@@ -1,0 +1,16 @@
+{
+  "name": "hiroki",
+  "version": "1.0.0",
+  "description": "Software Engineering Project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Lucas Lopes",
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": "8.11.4",
+    "npm": "6.4.1"
+  }
+}
