@@ -7,3 +7,4 @@ How to use:
 
 Then run:
 - npm install
+- npm run dev
