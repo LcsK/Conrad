@@ -1,4 +1,4 @@
-# Hiroki
+# Conrad
 
 How to use:
 
